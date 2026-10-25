@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartu Profil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex min-h-screen items-center justify-center bg-gray-100">
+
+  <!-- Langkah 1: pembungkus kartu (menggantikan <h1>) -->
+  <div class="max-w-sm rounded-lg border bg-white p-6 shadow-md">
+
+    <!-- Langkah 2: baris avatar + nama -->
+    <div class="flex items-center gap-4">
+      <div class="flex h-16 w-16 items-center justify-center rounded-full bg-pink-500 text-xl font-bold text-white">
+        SS
+      </div>
+      <div>
+        <!-- Langkah 3: nama dan keterangan -->
+        <h1 class="text-xl font-bold text-gray-900">Sahrani Maulidiyah Safitri </h1>
+        <p class="text-gray-600">Siswa Rekayasa Perangkat Lunak</p>
+      </div>
+    </div>
+
+    <!-- Langkah 4: deskripsi singkat -->
+    <p class="mt-4 text-gray-700">
+      Saya sedang belajar membuat tampilan web menggunakan Tailwind CSS.
+    </p>
+
+    <!-- Tantangan: badge keahlian -->
+    <div class="mt-4 flex gap-2">
+      <span class="rounded-full bg-purple-100 px-3 py-1 text-sm text-pink-700">HTML</span>
+      <span class="rounded-full bg-purple-100 px-3 py-1 text-sm text-pink-700">CSS</span>
+      <span class="rounded-full bg-purple-100 px-3 py-1 text-sm text-pink-700">Tailwind</span>
+    </div>
+
+    <!-- Langkah 5 + Tantangan: tombol -->
+    <div class="flex gap-2">
+      <button class="mt-4 rounded bg-pink-500 px-4 py-2 font-semibold text-white">Hubungi</button>
+      <button class="mt-4 rounded border border-pink-500 bg-white px-4 py-2 font-semibold text-pink-500">Ikuti</button>
+    </div>
+  </div>
+
+</body>
+</html>
